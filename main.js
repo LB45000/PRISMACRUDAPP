@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const deleteButton = document.getElementById('delete-button');
     deleteButton.addEventListener('click', function(event) {
         event.preventDefault();
-        const username = document.getElementById('delete-username').value; // Corrected line
+        const username = document.getElementById('delete-username').value; 
         fetch('/users', {
             method: 'DELETE',
             headers: { 'Content-Type': 'application/json' },
