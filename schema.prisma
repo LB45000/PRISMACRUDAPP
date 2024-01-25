@@ -3,7 +3,7 @@
 
 datasource db {
   provider = "mongodb"
-  url      = "mongodb+srv://l7476767:YYBFsG2THKVFpRzc@cluster0.ehrrzpd.mongodb.net/"
+  url      = "mongodb+srv://l7476767:LQjve3HjLXirnPMI@cluster0.ehrrzpd.mongodb.net/"
 }
 
 generator client {
